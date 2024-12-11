@@ -1,0 +1,391 @@
+.green {
+    color: rgb(6, 240, 6);
+    margin: 0px;
+}
+
+nav {
+    background-image: linear-gradient(rgb(112, 122, 138, 1),rgba(112, 122, 138, 1))
+}
+
+/* sec1 */
+
+.sec1 {
+    background-image: linear-gradient(rgb(112, 122, 138, 0.7),rgba(112, 122, 138, 0.7)),url(../img/man.webp);
+    height: 100vh;
+    background-attachment: fixed;
+}
+.sec1 h1 {
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 85px;
+    color: white;
+}
+
+.sec1 p {
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 25px;
+    color: white;
+}
+
+nav img {
+    margin-left: 500px;
+}
+
+header nav ul li a {
+    font-size: 5px;
+}
+
+/* sec2 */
+
+.sec2 {
+    background-image: linear-gradient(rgb(112, 122, 138, 0.7),rgba(112, 122, 138, 0.7)),url(../img/mafiozi.webp);
+    height: 80vh;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+/* prg1 */
+.prg1 {
+    margin-top: 100px;
+    margin-left: 425px;
+    width: 0;
+    height: 21px;
+    background-color: rgb(0, 214, 70);
+    animation: 1s ease-in-out forwards p1;
+}
+@keyframes p1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 448px;
+    }
+}
+.prg1::before {
+    content: 'WORDPRESS';
+    color: white;
+    position: absolute;
+    left: 625px;
+}
+
+.prg1::after {
+    content: '75%';
+    color: white;
+    position: absolute;
+    right: 685px;
+}
+/* prg2 */
+.prg2 {
+    margin-top: 30px;
+    margin-left: 425px;
+    width: 0;
+    height: 21px;
+    background-color: rgb(0, 214, 70);
+    animation: 1s ease-in-out forwards p2;
+}
+@keyframes p2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 418px;
+    }
+}
+.prg2::before {
+    content: 'DRUPAL';
+    color: white;
+    position: absolute;
+    left: 655px;
+}
+
+.prg2::after {
+    content: '70%';
+    color: white;
+    position: absolute;
+    right: 705px;
+}
+/* prg3 */
+.prg3 {
+    margin-top: 30px;
+    margin-left: 425px;
+    width: 0;
+    height: 21px;
+    background-color: rgb(0, 214, 70);
+    animation: 1s ease-in-out forwards p3;
+}
+@keyframes p3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 510px;
+    }
+}
+.prg3::before {
+    content: 'WIX';
+    color: white;
+    position: absolute;
+    left: 680px;
+}
+
+.prg3::after {
+    content: '95%';
+    color: white;
+    position: absolute;
+    right: 625px;
+}
+
+/* prg4 */
+
+.prg4 {
+    margin-top: 30px;
+    margin-left: 425px;
+    width: 0;
+    height: 21px;
+    background-color: rgb(0, 214, 70);
+    animation: 1s ease-in-out forwards p4;
+}
+@keyframes p4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 480px;
+    }
+}
+.prg4::before {
+    content: 'PHOTOSHOP';
+    color: white;
+    position: absolute;
+    left: 620px;
+}
+
+.prg4::after {
+    content: '85%';
+    color: white;
+    position: absolute;
+    right: 655px;
+}
+
+/* prg5 */
+
+.prg5 {
+    margin-top: 30px;
+    margin-left: 425px;
+    width: 0;
+    height: 21px;
+    background-color: rgb(0, 214, 70);
+    animation: 1s ease-in-out forwards p5;
+}
+@keyframes p5 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 465px;
+    }
+}
+.prg5::before {
+    content: 'ILLUSTRATOR';
+    color: white;
+    position: absolute;
+    left: 610px;
+}
+
+.prg5::after {
+    content: '80%';
+    color: white;
+    position: absolute;
+    right: 665px;
+}
+
+/* prg6 */
+
+.prg6 {
+    margin-top: 30px;
+    margin-left: 425px;
+    width: 0;
+    height: 21px;
+    background-color: rgb(0, 214, 70);
+    animation: 1s ease-in-out forwards p6;
+}
+@keyframes p6 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 480px;
+    }
+}
+.prg6::before {
+    content: 'JAVASCRIPT';
+    color: white;
+    position: absolute;
+    left: 630px;
+}
+
+.prg6::after {
+    content: '85%';
+    color: white;
+    position: absolute;
+    right: 655px;
+}
+
+/* prg7 */
+
+.prg7 {
+    margin-top: 30px;
+    margin-left: 425px;
+    width: 0;
+    height: 21px;
+    background-color: rgb(0, 214, 70);
+    animation: 1s ease-in-out forwards p7;
+}
+@keyframes p7 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 465px;
+    }
+}
+.prg7::before {
+    content: 'HTML & CSS';
+    color: white;
+    position: absolute;
+    left: 620px;
+}
+
+.prg7::after {
+    content: '80%';
+    color: white;
+    position: absolute;
+    right: 665px;
+}
+
+.sec2 h3 {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.sec2 h2 {
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* sec3 */
+
+.sec3 {
+    position: relative;
+    background-image: linear-gradient(rgb(96, 112, 138, 0.5),rgba(96, 112, 138, 0.5)),url(../img/metbg.webp);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.sec3 h2 {
+    margin-top: 200px;
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.sec3 h3 {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.colimg1 {
+    background-image: url(../img/akva.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 656px;
+    height: 406px;
+}
+
+.colimg2 {
+    background-image: url(../img/planshet.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 656px;
+    height: 406px;
+}
+
+.colimg3 {
+    background-image: url(../img/heraxos.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 656px;
+    height: 406px;
+}
+
+.col1 {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.sec3 .git {
+    position: absolute;
+    top: 1020px;
+    left: 920px;
+    background-color: rgb(0, 189, 0);
+    width: 3px;
+    height: 1016px;
+    animation: 3s ease-in-out forwards kanach;
+}
+
+@keyframes kanach {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 1016px;
+    }
+}
+
+.git::before {
+    content: '';
+    position: absolute;
+    top: 1000px;
+    left: -8px;
+    background-color:  rgb(0, 189, 0);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.row1 {
+    margin-top: 200px;
+    width: 900px;
+    margin-left: 180px;
+    padding: 80px;
+    background-color: rgb(51, 59, 80);
+}
+
+input {
+    outline: none;
+    margin: 1px;
+}
+
+textarea {
+    width: 247px;
+    outline: none;
+}
+
+button {
+    background-color: rgb(3, 196, 3);
+    border: none;
+    color: white;
+    width: 250px;
+}
+
+footer {
+    background-color: rgb(51, 59, 80);
+    color: white;
+}
